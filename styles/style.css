@@ -2,25 +2,93 @@
     font-family: "Raleway" , "sans-serif";
 }
 
-.header {}
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 92px 50px 96px;
+}
 
-.header-menu {}
+.header-menu {
+    font-size: 18px;
+    line-height: 100%;
+}
 
-.header-list {}
+.header-list {
+    display: flex;
+    font-size: 18px;
+    gap: 32px;
+    list-style: circle;
+}
 
-.header-listgl {}
+.header-listgl {
+    justify-self: start;
+    list-style: none;
+}
 
-.header-listlots {}
+.header-active-buttom {
+    text-decoration: none;}
 
-.header-listauk {}
+.header-listlots {
+    
+}
 
-.header-logotip {}
+.header-listauk {
 
-.header-logo {}
+}
 
-.header-address {}
+.header-logotip { 
 
-.cover {}
+}
+
+.header-logo {
+    width: 148px;
+    height: 105px;
+}
+
+.header-address { 
+    max-width: 240px;
+    width: 100%;
+    justify-self: end;
+    line-height: 24.3px;
+    font-size: 18px;
+    font-style: normal;
+
+}
+.overlay { 
+    position: absolute;
+    inset: 0;
+    background: #000000;
+    opacity: 60%;
+    z-index: 1;
+}
+
+.cover {
+    position: relative;
+    width: 1100px;
+    background-image: url("/images/cover.jpg") ;
+    padding: 165px 50px 50px 50px;
+    color: white;
+    background-size: cover;
+    background-repeat: no repeat;
+    background-position: center;
+}
+
+.covertxt1{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.covertxt2{
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.covertxt3{ 
+    display: block;
+    text-align: end;
+}
 
 .description {}
 
