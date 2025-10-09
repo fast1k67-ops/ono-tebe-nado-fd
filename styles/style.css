@@ -60,7 +60,7 @@
 .overlay { 
     position: absolute;
     inset: 0;
-    background: #000000;
+    background: #000;
     opacity: 60%;
     z-index: 1;
 }
