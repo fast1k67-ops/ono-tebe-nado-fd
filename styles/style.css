@@ -195,3 +195,26 @@ font-weight: 500px;
     padding-right: 844px;
 }
 
+.lots-about {
+    display: grid;
+    grid-template-columns: 334px 1fr;
+}
+
+.about-logo {
+    padding: 155px 72px 320px 71px;
+}
+
+.logotip-white {
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+}
+
+.logo-lots-white {
+    width: 148px;
+    }
+
+
