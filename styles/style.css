@@ -1,4 +1,4 @@
-.p h1 h2 h3 a { 
+.p h1 h2 h3 a {
     font-family: "Raleway" , "sans-serif";
 }
 
@@ -35,7 +35,7 @@
     height: 105px;
 }
 
-.header-address { 
+.header-address {
     max-width: 240px;
     width: 100%;
     justify-self: end;
@@ -47,7 +47,7 @@
     font-style: normal;
 }
 
-.overlay { 
+.overlay {
     position: absolute;
     inset: 0;
     background: #000;
@@ -66,7 +66,7 @@
     background-position: center;
 }
 
-.covertitle { 
+.covertitle {
     position: relative;
     z-index: 1;
     font-weight: 700;
@@ -90,7 +90,7 @@
     margin-bottom: 20px;
 }
 
-.covertxt3 { 
+.covertxt3 {
     display: block;
     text-align: end;
 }
@@ -150,7 +150,7 @@ font-weight: 500px;
 }
 
 
-.lots-card-list{
+.lots-card-list {
     display: flex;
     gap:25px;
     list-style: none;
@@ -173,7 +173,7 @@ font-weight: 500px;
 
 }
 
-.card-title{
+.card-title {
     color: #fff;
     font-size: 22px;
     text-transform: uppercase;
