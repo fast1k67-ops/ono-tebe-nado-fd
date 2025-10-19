@@ -190,11 +190,11 @@
 }
 
 .more-info {
-  position: relative;
-  top: 33px;
+  display: block;
   font-size: 20px;
   line-height: 100%;
   margin-left: 64px;
+  margin-top: 34px;
 }
 
 .about {
@@ -203,7 +203,7 @@
 }
 
 .about-logo {
-  margin: 190px 0px 0px 71px;
+  margin: 155px 0px 0px 71px;
 }
 
 .logotip-white {
@@ -220,7 +220,8 @@
 }
 
 .about-text {
-  padding: 170px 0px 115px 50px;
+  padding: 135px 0px 115px 47px;
+  width: 735px;
 }
 
 .about-title {
@@ -231,7 +232,7 @@
 }
 
 .about-text-info {
-  padding-bottom: 24px;
+  padding: 4px 0px 22px 0px;
   font-size: 20px;
 }
 
